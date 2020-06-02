@@ -1,0 +1,17 @@
+{
+  "name": "dialog-dlm111",
+  "version": "1.0.0",
+  "description": "对话框组件，丰富的参数配置。",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dialog-box"
+  ],
+  "author": "dlm111",
+  "license": "ISC"
+}

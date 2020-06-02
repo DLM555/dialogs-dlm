@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/dialog.css"/>
+		<title></title>
+	</head>
+	<body>
+		<button type="button" class="start" >开始一切</button>
+	</body>
+</html>
+<script src="js/dialog-dlm111-1.0.0.min.js"></script>
+<script>
+	var start = document.getElementsByClassName("start")[0];
+	start.onclick = function(){
+		var obj = {
+			cls:"wrap",
+			w:600,
+			h:200,
+			bg:"#fff",
+			cont:"曾虑多情损梵行，入山又恐别倾城",
+			title:"仓央嘉措"
+		};
+		new Wrap(obj);
+	}
+</script>
